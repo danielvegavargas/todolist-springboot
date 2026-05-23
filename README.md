@@ -32,9 +32,9 @@ Una API REST completa para gestión de tareas (Todo List) construida con Spring 
    CREATE DATABASE todolist;
    ```
 
-3. **Configurar las credenciales de la base de datos**
+3. **Configurar las credenciales de la base de datos (opcional)**
    
-   Edita `src/main/resources/application.properties`:
+   La aplicación usa valores por defecto para desarrollo local. Si necesitas cambiarlos, edita `src/main/resources/application.properties`:
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/todolist
    spring.datasource.username=tu_usuario
